@@ -1,0 +1,56 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/0.e9aba5940cc7a1a356fe.chunk.js",
+        "/inline.dbccf17db54f2b74e03c.bundle.js",
+        "/main.24279350915953f54622.bundle.js",
+        "/polyfills.cfd133ab9253bce5c168.bundle.js",
+        "/styles.763a0381a6c1576b515f.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": [
+        "https:\\/\\/maxcdn\\.bootstrapcdn\\.com\\/.*",
+        "https:\\/\\/cdnjs\\.cloudflare\\.com\\/.*"
+      ]
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-freshness",
+      "patterns": [
+        "\\/species",
+        "\\/starships",
+        "\\/datatable\\/movies",
+        "\\/datatable\\/vehicles"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 3600000,
+      "timeoutMs": 10000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/0.e9aba5940cc7a1a356fe.chunk.js": "327956acdbd629a98cfe143cc63b02c6bfffa671",
+    "/inline.dbccf17db54f2b74e03c.bundle.js": "0b26145f7540942d786610afdd08886d7ff299a8",
+    "/main.24279350915953f54622.bundle.js": "6c01eb93b2472bb194793f01ead2f70e3f6c93e9",
+    "/polyfills.cfd133ab9253bce5c168.bundle.js": "bf4905901ef2a8420c69709347ad1a785f33eae2",
+    "/styles.763a0381a6c1576b515f.bundle.css": "4fac98e90b66d1fb8fa2809e88f49c052f28565b",
+    "/favicon.ico": "460fcbd48b20fcc32b184388606af1238c890dba",
+    "/index.html": "d5d15305c4cc14deee1c9a5d9481dda1a89a6be3"
+  }
+}
